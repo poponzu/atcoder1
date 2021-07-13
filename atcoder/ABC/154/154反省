@@ -1,0 +1,7 @@
+入力処理はここを参考に
+https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c#12-%E5%85%A5%E5%8A%9B%E5%87%A6%E7%90%86
+
+ABは23分くらいで溶けた
+Cが154c.pyでTLEをくらった
+でもhttps://note.nkmk.me/python-list-duplicate-check/
+で配列に重複した要素があるか判定する関数作ったらいけた
