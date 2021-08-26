@@ -21,6 +21,7 @@ def bool_is_prime(n):
         if n%i == 0:
             return False
     return True
+    return True
 
 #最小公倍数を求める(x,yが整数かの判定はない）
 import math

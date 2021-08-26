@@ -13,7 +13,7 @@ ans = 10**10
 for i in range(1,N+1):
     left = S[i]
     right = sum - left
-    ans = min (ans ,abs(right - left))
+    ans = min(ans ,abs(right - left))
 
 print(ans)
 
