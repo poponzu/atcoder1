@@ -7,7 +7,6 @@ sys.setrecursionlimit(10 ** 7)  # 再帰関数の呼び出し制限
 h, w = map(int, input().split())
 c = [list(input()) for i in range(h)]
 
-
 def dfs(x, y):
     # 壁に当たったり、探索範囲外になった場合はreturn
     if not (0 <= x < h) or not (0 <= y < w) or c[x][y] == "#":

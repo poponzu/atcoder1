@@ -55,6 +55,37 @@ def findDuplicates2(arr1, arr2):
     return ans
 
 
+
+# arr2のサイズがめっちゃ大きいとき、O(NlogM)にする解法3
+def findDuplicates3(arr1, arr2):
+    duplicates = []
+
+    for num in arr1:
+        if binarySearch(arr2, num) != -1:
+            duplicates.append(num)
+
+    return duplicates
+
+
+# 二分探索
+def binarySearch(a, x):
+    low = 0
+    high = len(a) - 1
+    mid = 0
+
+    while low <= high:
+        # ここ切り捨ての//でいいのかどうか
+        mid = (low + high) // 2
+        if a[mid] < x:
+            low = mid + 1
+        elif a[mid] > x:
+            high = mid - 1
+        else:
+            return mid
+
+    return -1  # エラー
+
+
 A = [1, 2, 2, 3, 4, 5]
 B = [2, 2, 5, 6, 10, 14]
 
