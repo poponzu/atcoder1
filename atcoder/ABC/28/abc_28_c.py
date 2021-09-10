@@ -1,3 +1,5 @@
+# コミットしてからpush!
+
 # 解法1
 import itertools
 
