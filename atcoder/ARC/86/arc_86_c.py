@@ -16,7 +16,7 @@ kind = len(dict)
 dict2 = sorted(dict.items(), key=lambda x: x[1])
 # print(dict2)
 
-# # 先頭kind ー K個みて出現回数数える
+# # 先頭kind ー K個みて最小の書き換える回数を数える
 for i in range(kind - K):
     cnt += dict2[i][1]
 
