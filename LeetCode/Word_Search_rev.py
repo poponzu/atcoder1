@@ -6,9 +6,9 @@ class Solution:
     def exist(self, board, word) -> bool:
 
         if not board:
-
             # Quick response for empty board
             return False
+
         # Ｈ行W列を考える
         H,W = len(board), len(board[0])
 

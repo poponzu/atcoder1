@@ -1,4 +1,6 @@
 # 12:12 ~ 12:30
+# 解答 https://atcoder.jp/contests/code-festival-2014-morning-easy/submissions/25660144
+
 n = int(input())
 rev = False
 
